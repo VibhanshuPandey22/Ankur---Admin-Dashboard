@@ -1,0 +1,12 @@
+.report-container {
+    height: 1000px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ddd; /* Optional: Add a border */
+  }
+  
+  @media (max-width: 768px) {
+    .report-container {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  }
